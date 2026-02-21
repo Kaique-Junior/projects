@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+:root{
+    /* Fontes */
+    --font01: Arial, Helvetica, sans-serif;
+    --font02: 'Times New Roman', Times, serif;
+
+    /* Paleta de Cores */
+    --color01:blue;
+    --color02:blue;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+
+
+/*Headers*/
+
+header{
+    background-color: blanchedalmond;
+}
+
+header > h1{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: var(--font01);
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+/*Sections*/
+
+
+
+/*Article*/
+#sobremim{
+    padding: 20px;
+    background-color: rgb(151, 151, 252);
+}
+
+#sobremim > h1{
+    text-align: center;
+}
+
+#sobremim > img{
+    display: block;
+    margin: auto;
+}
